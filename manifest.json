@@ -1,0 +1,10 @@
+{
+    "name": "SSE",
+    "description": "Stupid Simple Extension",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "permissions" : ["management", "topSites","chrome://favicon/"],
+    "chrome_url_overrides" : {
+        "newtab": "tab.html"
+    }
+ }
